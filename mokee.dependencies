@@ -1,0 +1,6 @@
+[
+  {
+    "repository": "android_vendor_meizu_sm6150-common",
+    "target_path": "vendor/meizu/sm6150-common"
+  }
+]

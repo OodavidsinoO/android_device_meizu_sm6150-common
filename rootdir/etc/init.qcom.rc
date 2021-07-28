@@ -1,0 +1,9 @@
+import /init.target.rc
+
+on init
+    chown system system /sys/class/leds/mx-led/blink
+
+service charger.meizu /system/bin/charger
+    class charger
+    group system graphics
+    seclabel u:r:charger:s0
